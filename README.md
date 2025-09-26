@@ -6,7 +6,7 @@ The goal: keep Agentforce projects focused on **business value**, not over-engin
 ---
 
 This repo collects simple, practical do’s and don’ts for working with Agentforce.  
-The list itself lives here 👉 [BEST-PRACTICES.md](BEST-PRACTICES.md)
+The list itself lives here 👉 [BEST-PRACTICES.md](Best-Practices.md)
 
 ---
 
