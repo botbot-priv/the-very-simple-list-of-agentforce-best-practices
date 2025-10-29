@@ -1,3 +1,5 @@
-# Principles
-
-_TODO: Add core principles for Agentforce projects._
+- **Start with outcomes** → Good Agents always begin by defining the intended **business outcome** and the **business case**.  
+- **Define success criteria** → Successful Agents have clear, measurable ways to know if they’re working.  
+- **Use Job Stories** → Writing simple Job Stories is a great way to design Agent architecture.  
+- **Tightly scope data** → Define the *minimum* data needed to answer your Job Stories — this avoids unnecessary complexity.
+- **Start small and move fast** → Don't wait until you have the perfect design. Start small, get feedback early and iterate. 
