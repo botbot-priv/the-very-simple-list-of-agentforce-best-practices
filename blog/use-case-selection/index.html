@@ -11,16 +11,16 @@
       
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
     
     
       
-        <title>Principles - Agentforce Best Practices</title>
+        <title>The - Agentforce Best Practices</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
       
       
 
@@ -39,7 +39,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -57,6 +57,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#the-1-predictor-of-agentforce-success-use-case-selection" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -69,7 +74,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Agentforce Best Practices" class="md-header__button md-logo" aria-label="Agentforce Best Practices" data-md-component="logo">
+    <a href="../.." title="Agentforce Best Practices" class="md-header__button md-logo" aria-label="Agentforce Best Practices" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -89,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Principles
+              The
             
           </span>
         </div>
@@ -167,7 +172,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Agentforce Best Practices" class="md-nav__button md-logo" aria-label="Agentforce Best Practices" data-md-component="logo">
+    <a href="../.." title="Agentforce Best Practices" class="md-nav__button md-logo" aria-label="Agentforce Best Practices" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -185,7 +190,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -217,6 +222,43 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-use-case-qualification-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣ Use-Case Qualification Framework
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-start-small-to-win-big" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣ Start Small to Win Big
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-build-the-business-case-get-stakeholder-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      3️⃣ Build the Business Case &amp; Get Stakeholder Support
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -232,21 +274,47 @@
 
 
 
-  <h1>Principles</h1>
-
+<h1 id="the-1-predictor-of-agentforce-success-use-case-selection">The #1 predictor of Agentforce success: Use-case selection</h1>
+<p>In my first 3 months back in a Forward Deployed Engineering (FDE) role at Salesforce, I’ve been hands-on with the tech and up close with customers and partners rolling Agentforce out.</p>
+<p><strong>Pattern observed:</strong> the #1 predictor of success isn’t budget, skills, or hype — it’s <strong>use-case selection</strong>.</p>
+<p>It doesn’t need to be flashy. It probably shouldn’t be complex. Pick something straightforward to build, delivers value quickly, and has a business case.</p>
+<h2 id="1-use-case-qualification-framework">1️⃣ Use-Case Qualification Framework</h2>
+<p>Ask three questions <strong>before</strong> you start:
+- Is the use-case clearly defined with a <strong>measurable business outcome</strong>?
+- Is the <strong>required data available &amp; accessible now</strong> (including licenses)?
+- Is there a <strong>committed timeline</strong> or clear trigger for action?</p>
+<h2 id="2-start-small-to-win-big">2️⃣ Start Small to Win Big</h2>
+<p>Big-bang automation sounds great — real wins come from <strong>frequent, simple, low-risk</strong> tasks.</p>
 <ul>
-<li><strong>Start with outcomes</strong> → Good Agents always begin by defining the intended <strong>business outcome</strong> and the <strong>business case</strong>.  </li>
-<li><strong>Define success criteria</strong> → Successful Agents have clear, measurable ways to know if they’re working.  </li>
-<li><strong>Use Job Stories</strong> → Writing simple Job Stories is a great way to design Agent architecture.  </li>
-<li><strong>Tightly scope data</strong> → Define the <em>minimum</em> data needed to answer your Job Stories — this avoids unnecessary complexity.</li>
-<li><strong>Start small and move fast</strong> → Don't wait until you have the perfect design. Start small, get feedback early and iterate. </li>
+<li><strong>Avoid:</strong> complex edge cases, high-error scenarios, unclear ownership  </li>
+<li><strong>Prioritise:</strong> frequent actions, low variance, leveraging existing data</li>
 </ul>
+<blockquote>
+<p>Upcoming article: an <strong>impact/effort matrix</strong> to rank Agentforce use-cases.</p>
+</blockquote>
+<h2 id="3-build-the-business-case-get-stakeholder-support">3️⃣ Build the Business Case &amp; Get Stakeholder Support</h2>
+<p>Good use-cases are common; great ones <strong>deliver measurable business value</strong> (increased profit or reduced cost).</p>
+<ul>
+<li>What’s the <strong>measurable impact</strong>?  </li>
+<li>Can you quantify <strong>time saved</strong>, <strong>errors reduced</strong>, <strong>productivity gained</strong>?  </li>
+<li>Who is the <strong>executive sponsor</strong> accountable for outcomes?</li>
+</ul>
+<p>Yes, it’s work — but in the AI era, the <strong>first draft can be automated</strong>.</p>
+<blockquote>
+<p>I’ve built two custom GPTs for <strong>Use-Case Evaluation</strong> &amp; <strong>ROI Calculation</strong>.<br />
+<em>Disclaimer: opinions and tools are my own; not endorsed by Salesforce.</em></p>
+</blockquote>
+<p><strong>Want to validate your Agentforce use-case?</strong> DM me to try the GPTs.<br />
+<strong>Got feedback or a better way to prioritise?</strong> Comment or reach out.</p>
 
 
 
 
 
 
+
+  
+  
 
 
 
@@ -289,10 +357,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
     
   </body>
