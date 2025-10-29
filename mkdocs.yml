@@ -1,5 +1,19 @@
-site_name: Agentforce Best Practices
+site_name: the-very-simple-list-of-agentforce-best-practices
+
 theme:
   name: material
+  features:
+    - navigation.top
+    - navigation.tabs
+    - content.code.copy
+
+plugins:
+  - search
+
 nav:
   - Home: index.md
+  - Principles: principles.md
+  - Design Patterns: design-patterns.md
+  - Blog:
+      - Blog Home: blog/index.md
+
